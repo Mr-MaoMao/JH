@@ -41,15 +41,6 @@ public class IPUtils {
         return isIPv6StdAddress(input) || isIPv6HexCompressedAddress(input);
     }
 
-    /**
-     * 
-     * @description 获取用户IP
-     * @author lli
-     * @create 2017年6月1日下午5:20:40
-     * @version 1.0
-     * @param
-     * @return
-     */
     public static String getRemoteAddr() {
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder
                 .getRequestAttributes()).getRequest();
