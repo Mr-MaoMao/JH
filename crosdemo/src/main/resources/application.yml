@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /fuckcros
+  port: 9111
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true

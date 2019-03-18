@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>测试跨域请求</title>
+</head>
+<body>
+    针蛋疼
+</body>
+<script>
+    var req=new XMLHttpRequest();
+    req.open("get","http://10.4.138.142:9111/fuckcros/user/jhzeng/18/%E7%81%AB%E6%98%9F",false);
+    req.send();
+    document.querySelector('body').innerText=req.responseText;
+</script>
+</html>
